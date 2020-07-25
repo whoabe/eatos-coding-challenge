@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Report from "./components/pages/Reports";
+import Sidebar from "./components/Sidebar";
+import "./style/App.css";
+import jsonData from "./data.json";
 
-function App() {
+const App = () => {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    setData(jsonData);
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sidebar data={data} />
+
+      <Report data={data} />
     </div>
   );
-}
+};
 
 export default App;

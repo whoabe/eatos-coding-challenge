@@ -1,0 +1,273 @@
+{
+  "user": {
+    "firstName": "Rakesh",
+    "lastName": "Kishan",
+    "email": "dashboard@poslabs.com"
+  },
+  "restaurants": [
+    {
+      "name": "In n Out",
+      "id": 1,
+      "employees": [
+        {
+          "firstName": "Joe",
+          "lastName": "Smith",
+          "id": 149100,
+          "totalCardSale": 2000,
+          "totalCashSale": 2000,
+          "totalTip": 100,
+          "total": 2000,
+          "cashDrop": 2000,
+          "payments": [
+            {
+              "type": "VISA",
+              "qty": 20,
+              "amount": 200,
+              "tip": 20
+            },
+            {
+              "type": "MASTER",
+              "qty": 20,
+              "amount": 200,
+              "tip": 20
+            },
+            {
+              "type": "AMEX",
+              "qty": 30,
+              "amount": 300,
+              "tip": 30
+            },
+            {
+              "type": "DSCVR",
+              "qty": 40,
+              "amount": 400,
+              "tip": 40
+            },
+            {
+              "type": "CASH",
+              "qty": 50,
+              "amount": 500,
+              "tip": 50
+            }
+          ]
+        },
+        {
+          "firstName": "Lizzy",
+          "lastName": "Caine",
+          "id": 149109,
+          "totalCardSale": 2100,
+          "totalCashSale": 2100,
+          "totalTip": 61,
+          "total": 2100,
+          "cashDrop": 2100,
+          "payments": [
+            {
+              "type": "VISA",
+              "qty": 11,
+              "amount": 111,
+              "tip": 11
+            },
+            {
+              "type": "MASTER",
+              "qty": 11,
+              "amount": 111,
+              "tip": 11
+            },
+            {
+              "type": "AMEX",
+              "qty": 11,
+              "amount": 111,
+              "tip": 10
+            },
+            {
+              "type": "DSCVR",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "CASH",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            }
+          ]
+        },
+        {
+          "firstName": "Boldo",
+          "lastName": "Moo",
+          "id": 145118,
+          "totalCardSale": 1000,
+          "totalCashSale": 1000,
+          "totalTip": 50,
+          "total": 1000,
+          "cashDrop": 1000,
+          "payments": [
+            {
+              "type": "VISA",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "MASTER",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "AMEX",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "DSCVR",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "CASH",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bar & Grill LA",
+      "id": 0,
+      "employees": [
+        {
+          "firstName": "Brandon",
+          "lastName": "Lakes",
+          "id": 139100,
+          "totalCardSale": 1000,
+          "totalCashSale": 1000,
+          "totalTip": 50,
+          "total": 1000,
+          "cashDrop": 1000,
+          "payments": [
+            {
+              "type": "VISA",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "MASTER",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "AMEX",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "DSCVR",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "CASH",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            }
+          ]
+        },
+        {
+          "firstName": "Lizbeth",
+          "lastName": "Cortez",
+          "id": 139109,
+          "totalCardSale": 1000,
+          "totalCashSale": 1000,
+          "totalTip": 50,
+          "total": 1000,
+          "cashDrop": 1000,
+          "payments": [
+            {
+              "type": "VISA",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "MASTER",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "AMEX",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "DSCVR",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "CASH",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            }
+          ]
+        },
+        {
+          "firstName": "Baldomero",
+          "lastName": "Martinez",
+          "id": 139118,
+          "totalCardSale": 1000,
+          "totalCashSale": 1000,
+          "totalTip": 50,
+          "total": 1000,
+          "cashDrop": 1000,
+          "payments": [
+            {
+              "type": "VISA",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "MASTER",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "AMEX",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "DSCVR",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            },
+            {
+              "type": "CASH",
+              "qty": 10,
+              "amount": 100,
+              "tip": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
