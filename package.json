@@ -12,7 +12,7 @@
     "react-devtools": "^3.6.3",
     "react-dom": "^16.13.1",
     "react-pro-sidebar": "^0.4.3",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-sortable-table": "^1.4.0"
   },
   "scripts": {
